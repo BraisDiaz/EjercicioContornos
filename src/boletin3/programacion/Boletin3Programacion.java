@@ -22,7 +22,7 @@ public class Boletin3Programacion {
     JOptionPane.showMessageDialog(null, "El consumo medio es de " + consumoMedio + "L/100Km");
     float velocidadMedia = consume2.getVelocidadMedia();
 //visualizamos la velocidad media mediante un cuadro de salida.
-    JOptionPane.showMessageDialog(null, "La velocidad media es de " + velocidadMedia + "en Km/h" );
     
+        System.out.println("La velocidad media es de " + velocidadMedia + "en Km/h" );
     }
 }
