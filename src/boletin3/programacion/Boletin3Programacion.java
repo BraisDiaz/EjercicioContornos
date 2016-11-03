@@ -23,6 +23,6 @@ public class Boletin3Programacion {
     float velocidadMedia = consume2.getVelocidadMedia();
 //visualizamos la velocidad media mediante un cuadro de salida.
     
-        System.out.println("La velocidad media es de " + velocidadMedia + "en Km/h" );
+        JOptionPane.showMessageDialog(null,"La velocidad media es de " + velocidadMedia + "en Km/h" );
     }
 }
